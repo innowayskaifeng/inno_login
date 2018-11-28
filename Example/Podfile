@@ -1,0 +1,10 @@
+
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'ssh://sz.ios@ftp1.innoways.com/volume1/github/ios/innoways_lib'
+
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Inno_Login_Library_Example' do
+    pod 'Inno_Login', :podspec => '/Users/innoerios1/Desktop/login1/Inno_Login.podspec'  # 指定podspec文件
+end

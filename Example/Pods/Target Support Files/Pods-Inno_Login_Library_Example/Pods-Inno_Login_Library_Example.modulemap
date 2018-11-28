@@ -1,0 +1,6 @@
+framework module Pods_Inno_Login_Library_Example {
+  umbrella header "Pods-Inno_Login_Library_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

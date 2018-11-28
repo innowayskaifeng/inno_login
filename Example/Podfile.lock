@@ -1,0 +1,22 @@
+PODS:
+  - BiometricAuthentication (2.1)
+  - IBAnimatable (5.2.1)
+  - Inno_Login (4.3.5):
+    - BiometricAuthentication (~> 2.1)
+    - IBAnimatable (~> 5.2.1)
+
+DEPENDENCIES:
+  - Inno_Login (from `/Users/innoerios1/Desktop/login1/Inno_Login.podspec`)
+
+EXTERNAL SOURCES:
+  Inno_Login:
+    :podspec: "/Users/innoerios1/Desktop/login1/Inno_Login.podspec"
+
+SPEC CHECKSUMS:
+  BiometricAuthentication: 6928c01583bc707f92c11349f190d5ae052217d3
+  IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
+  Inno_Login: b7c824cbc8eda1ca04da8acee02fa9083d150eab
+
+PODFILE CHECKSUM: 025cd1874625005584df1eb5f416a01cacbebf23
+
+COCOAPODS: 1.2.0
