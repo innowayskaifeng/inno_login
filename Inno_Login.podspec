@@ -9,8 +9,8 @@ DESC
   s.homepage         = 'http://www.innoways.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'thefeng' => '24272779@qq.com' }
-s.source           = { :git => 'http://ftp1.innoways.com:5005/github/ios/innoways_lib/login.git', :tag => '4.4.4' }
+  s.author           = { 'Kaifeng Wu' => '24272779@qq.com' }
+s.source           = { :git => 'https://github.com/innowayskaifeng/inno_login.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
