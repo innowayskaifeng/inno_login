@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-#inno_Library
-=======
-# Inno_Login_Library
+
+# Inno_Login
 
 [![CI Status](http://img.shields.io/travis/thefeng/Inno_Login_Library.svg?style=flat)](https://travis-ci.org/thefeng/Inno_Login_Library)
 [![Version](https://img.shields.io/cocoapods/v/Inno_Login_Library.svg?style=flat)](http://cocoapods.org/pods/Inno_Login_Library)
@@ -32,4 +30,4 @@ thefeng, 24272779@qq.com
 ## License
 
 Inno_Login_Library is available under the MIT license. See the LICENSE file for more info.
->>>>>>> Initial commit
+
