@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         loginC?.exclamationBackgroundImage = UIImage(named: "Icon-App-20x20")
         loginC?.x_safeBackgroundImage = UIImage(named: "Icon-App-20x20")
         
-        loginC?.turnOnPrivary = true
+        loginC?.turnOnPrivary = false
         loginC?.privaryAgreeBackgroundColor = UIColor.red
         loginC?.privaryCompanyText = "A-AAa"
         loginC?.privaryTitleText = "Internet Protocol"

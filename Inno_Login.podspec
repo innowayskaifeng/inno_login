@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Inno_Login'
-  s.version          = '4.4.4'
+  s.version          = '4.4.5'
   s.summary          = 'a login library and check version.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here...
