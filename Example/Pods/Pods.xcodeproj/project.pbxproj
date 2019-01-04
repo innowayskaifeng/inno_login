@@ -11,7 +11,6 @@
 		05A842FF87366324770976DE8051AF45 /* TransitionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C6BE56A28046AE7842FB58EED2B1C /* TransitionPresenter.swift */; };
 		0827876C330A9ECD1CA4D3FB0667D4F2 /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6EAE943D08FA4EFA0A8D78115A559F /* IBAnimatable.framework */; };
 		088B3A97760BCFC44E613542433CC975 /* unselect_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1F76B92797CDCAFF246F88B08B4FFE /* unselect_01@3x.png */; };
-		0AE4108B88E23A08A6EB49471E9FF3C7 /* TDTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA3D50883D0FCD1035A8C4C5183F164 /* TDTouchID.swift */; };
 		0B1B317EBDD9DAF97E99E97C7BF5C939 /* Password@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39DF665C43168F8B8031E8B316647D8 /* Password@3x.png */; };
 		0D562DD26928987280D47BBD6655943C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CEF1380D6F91677CFFEA867DB5C2C2 /* Foundation.framework */; };
 		0DAAF35DF7486F409C713D8D260F7974 /* ActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49702058E3BF7BE868A8A9F9DF64DC83 /* ActivityIndicatorShape.swift */; };
@@ -356,7 +355,7 @@
 		49702058E3BF7BE868A8A9F9DF64DC83 /* ActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorShape.swift; path = Sources/ActivityIndicators/Common/ActivityIndicatorShape.swift; sourceTree = "<group>"; };
 		4A90D8153706429D15E0133004225085 /* BioMetricAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BioMetricAuthenticator.swift; path = BiometricAuthentication/BiometricAuthentication/Authentication/BioMetricAuthenticator.swift; sourceTree = "<group>"; };
 		4ACD1ECDCD8598AE6A91F218FBAC2CCD /* InteractiveAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveAnimator.swift; path = Sources/Animators/InteractiveAnimator/InteractiveAnimator.swift; sourceTree = "<group>"; };
-		4C10F7519FB95E8368B1A30C0BF0F901 /* BiometricAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BiometricAuthentication.framework; path = BiometricAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C10F7519FB95E8368B1A30C0BF0F901 /* BiometricAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BiometricAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD9B6BADDDA25342FFB16B5DE2B0AE4 /* SystemTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemTransitionAnimator.swift; path = Sources/Animators/TransitionAnimator/SystemTransitionAnimator.swift; sourceTree = "<group>"; };
 		4D2BD1CEE714057AEEFD0B25C0A0441B /* ActivityIndicatorAnimationHeartBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationHeartBeat.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationHeartBeat.swift; sourceTree = "<group>"; };
 		4F1023986E0F6082389D8A52534AA4D6 /* TransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionType.swift; path = Sources/Enums/TransitionType.swift; sourceTree = "<group>"; };
@@ -394,7 +393,7 @@
 		6D69F1B16335F56FA042F2F87843F777 /* FadeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeAnimator.swift; path = Sources/Animators/TransitionAnimator/FadeAnimator.swift; sourceTree = "<group>"; };
 		6E95AC290311DE7596932773227CC756 /* Pods-Inno_Login_Library_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Inno_Login_Library_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6EBCA643934CBEEF16D5C0ED67BA120C /* _SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _SwiftSupport.swift; path = Sources/Common/_SwiftSupport.swift; sourceTree = "<group>"; };
-		6EEC6657DAE982A358FAA732131176D0 /* Inno_Login.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Inno_Login.bundle; path = Inno_Login.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEC6657DAE982A358FAA732131176D0 /* Inno_Login.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inno_Login.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		710F68F55769F72130443F9601417C29 /* NavigationBarDesginable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarDesginable.swift; path = Sources/Protocols/Designable/NavigationBarDesginable.swift; sourceTree = "<group>"; };
 		7183309EB8E3C82CCA383BB134D8231F /* ActivityIndicatorAnimationTriforce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationTriforce.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationTriforce.swift; sourceTree = "<group>"; };
 		74B62E05FFF9BD869CA0EB0D5DDC2F65 /* CALayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerExtension.swift; path = Sources/Extensions/CALayerExtension.swift; sourceTree = "<group>"; };
@@ -419,13 +418,13 @@
 		8418E31EC6EBDD2E464208E6576F3577 /* AnimatableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableViewController.swift; path = Sources/Controllers/AnimatableViewController.swift; sourceTree = "<group>"; };
 		842C0F5BBF023C7AD1C751111CEC14EC /* AnimatableNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableNavigationController.swift; path = Sources/Controllers/AnimatableNavigationController.swift; sourceTree = "<group>"; };
 		843CE215C66F3C199DCEA0782203AF65 /* PresentCardsSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentCardsSegue.swift; path = Sources/Segues/PresentCardsSegue.swift; sourceTree = "<group>"; };
-		84D7D53DE482AB615E634A2AECA9F470 /* Pods_Inno_Login_Library_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Inno_Login_Library_Example.framework; path = "Pods-Inno_Login_Library_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D7D53DE482AB615E634A2AECA9F470 /* Pods_Inno_Login_Library_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inno_Login_Library_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864F26D836D63A0A9C7515CF92FFEF62 /* BiometricAuthentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthentication-prefix.pch"; sourceTree = "<group>"; };
 		8985818DE0A70709AC0CE04AB8006960 /* ActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
 		8ABCDF1B4EED54BEFFB03E183F5DA5BA /* Pods-Inno_Login_Library_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Inno_Login_Library_Example.modulemap"; sourceTree = "<group>"; };
 		8DAD474ADB92BDD689F32BBE0B0E0601 /* bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bg.png; path = Inno_Login/Assets/bg.png; sourceTree = "<group>"; };
 		91B071AAFF87A16842286468195374A9 /* Username@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Username@2x.png"; path = "Inno_Login/Assets/Username@2x.png"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9514B8073BE91B4E0E2567CB8117F405 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Inno_Login/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
 		99196D19E86312555FBF5EAEE68529C9 /* ActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationSquareSpin.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
 		9985DB1EB86BCE518F9C565EB4C06C6D /* Username.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Username.png; path = Inno_Login/Assets/Username.png; sourceTree = "<group>"; };
@@ -496,7 +495,7 @@
 		E03762BB28D45C21687711DA634C3D34 /* BarButtonItemDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarButtonItemDesignable.swift; path = Sources/Protocols/Designable/BarButtonItemDesignable.swift; sourceTree = "<group>"; };
 		E14961A1A2B4CC32F0B510AA4384D6C9 /* BiometricAuthentication.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BiometricAuthentication.xcconfig; sourceTree = "<group>"; };
 		E14F07706BD1E6F235419FBFAB05A84D /* ActivityIndicatorAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimating.swift; path = Sources/Protocols/ActivityIndicator/ActivityIndicatorAnimating.swift; sourceTree = "<group>"; };
-		E28755D66541E5FE678A17DD09CA9546 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBAnimatable.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28755D66541E5FE678A17DD09CA9546 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39DF665C43168F8B8031E8B316647D8 /* Password@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Password@3x.png"; path = "Inno_Login/Assets/Password@3x.png"; sourceTree = "<group>"; };
 		E56A8F7D0F4727DC56F6E944654FFA8D /* PresentNatGeoSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentNatGeoSegue.swift; path = Sources/Segues/PresentNatGeoSegue.swift; sourceTree = "<group>"; };
 		E61228C402829F31CBD03B9EDCC5C536 /* ActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallPulseRise.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
@@ -512,14 +511,13 @@
 		ED54D2DD8E1143818AF6083DB97E92C1 /* BiometricAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BiometricAuthentication.modulemap; sourceTree = "<group>"; };
 		EDD51ABD6F0F9A0EFB1C319ED03D84C4 /* PresentFadeWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentFadeWithDismissInteractionSegue.swift; path = Sources/Segues/PresentFadeWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
 		EDE52F9BCB1F888902CBFD3F1630F24F /* AnimatableTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTableViewController.swift; path = Sources/Controllers/AnimatableTableViewController.swift; sourceTree = "<group>"; };
-		EEA3D50883D0FCD1035A8C4C5183F164 /* TDTouchID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDTouchID.swift; path = Inno_Login/Classes/TDTouchID/TDTouchID.swift; sourceTree = "<group>"; };
 		EEDB64EDFF8D5EAD299723A5496335A3 /* ActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationLineScalePulseOut.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
 		F047AF11BF9FD48E2DC50A9EB415E5DC /* ActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationAudioEqualizer.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
 		F1DC96752C63F39F55ADA16C5CE29081 /* PresentFoldSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentFoldSegue.swift; path = Sources/Segues/PresentFoldSegue.swift; sourceTree = "<group>"; };
 		F2990D6DC90904D81B3B4793591F08DA /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ForgotPasswordViewController.xib; path = Inno_Login/Assets/ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		F39B297E6CE3A4CB2C0A85972CBEDBF6 /* AuthenticationErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationErrors.swift; path = BiometricAuthentication/BiometricAuthentication/Authentication/AuthenticationErrors.swift; sourceTree = "<group>"; };
 		F439C6C50F05E881683BBD08B5B3D11A /* ActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallZigZagDeflect.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
-		F463282E71A1C220061D9555A71E1E07 /* Inno_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Inno_Login.framework; path = Inno_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F463282E71A1C220061D9555A71E1E07 /* Inno_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Inno_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F678A0ED1C692DD910BC7FBF5348B355 /* SlideAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideAnimator.swift; path = Sources/Animators/TransitionAnimator/SlideAnimator.swift; sourceTree = "<group>"; };
 		F797ABCF802BD6EFA17712324948939D /* ConicalGradientLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConicalGradientLayer.swift; path = Sources/Others/ConicalGradientLayer.swift; sourceTree = "<group>"; };
 		FD02F4A622665AB431619B4039BF5DAA /* AnimatedPresenting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedPresenting.swift; path = Sources/Protocols/TransitionAnimatable/AnimatedPresenting.swift; sourceTree = "<group>"; };
@@ -597,12 +595,10 @@
 				C057F697034B7AB58002BB50F7AEAABA /* KFForgotPasswordViewController.swift */,
 				EA358898526356D3E94FA5A394B59501 /* KFLoginController.swift */,
 				4746F7F9AA0B2B1B0B5308FD9C256D37 /* KFPraviryView.swift */,
-				EEA3D50883D0FCD1035A8C4C5183F164 /* TDTouchID.swift */,
 				9514B8073BE91B4E0E2567CB8117F405 /* UIColorExtension.swift */,
 				4A2F61AFE38DA7B1A5278113091C7DA0 /* Resources */,
 				1B8A7AC47D4C292FB73E6F93D3DFEC1C /* Support Files */,
 			);
-			name = Inno_Login;
 			path = Inno_Login;
 			sourceTree = "<group>";
 		};
@@ -925,7 +921,6 @@
 				DDC07C3D1D7D2ABCBBBAAB9A2B6FA107 /* ZoomAnimator.swift */,
 				9F70369D4B926984BA7DBB627DF2D2C5 /* Support Files */,
 			);
-			name = IBAnimatable;
 			path = IBAnimatable;
 			sourceTree = "<group>";
 		};
@@ -937,7 +932,6 @@
 				4A90D8153706429D15E0133004225085 /* BioMetricAuthenticator.swift */,
 				8BA0444F0B9FC816535D90A5D7A19566 /* Support Files */,
 			);
-			name = BiometricAuthentication;
 			path = BiometricAuthentication;
 			sourceTree = "<group>";
 		};
@@ -1167,7 +1161,6 @@
 				860FD22CE27FBF9CD0E40D2C9E4A7379 /* KFForgotPasswordViewController.swift in Sources */,
 				A1579F92707808BCABB9F05B4B6FD7B0 /* KFLoginController.swift in Sources */,
 				9A6707ABA2EB60D16F4BC7682C2F6A9A /* KFPraviryView.swift in Sources */,
-				0AE4108B88E23A08A6EB49471E9FF3C7 /* TDTouchID.swift in Sources */,
 				199B4CE8D2FF0735440C4FE332C89B1A /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

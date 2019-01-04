@@ -282,9 +282,13 @@ public class KFLoginController: UIViewController,KFLoginControlerDelagete,KFForg
         
         self.clearUserPassword()
         
+        if USERDEFAULT.bool(forKey: ISREMEMBERPASSWORD) {
+            hiddenUsernameText()
+        }
+        
     }
     
-    private var authenticationStatus:Bool = false;
+    var authenticationStatus:Bool = false;
     
     public override func viewDidLoad() {
         super.viewDidLoad()
