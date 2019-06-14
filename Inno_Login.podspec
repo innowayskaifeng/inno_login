@@ -20,9 +20,7 @@ s.source           = { :git => 'https://github.com/innowayskaifeng/inno_login.gi
   s.resource_bundles = {
      'Inno_Login' => ['Inno_Login/Assets/**/*']
   }
-# s.public_header_files = 'Inno_Login/**/*.swift'
   s.frameworks = 'UIKit','Foundation'
-# s.dependency 'Alamofire', '~>4.5'
-  s.dependency 'IBAnimatable', '~>5.2.1'
-  s.dependency 'BiometricAuthentication', '~>2.1'
+  s.dependency 'IBAnimatable', '5.2.1'
+  s.dependency 'BiometricAuthentication', '2.1'
 end
